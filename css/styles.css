@@ -19,6 +19,7 @@
 
 .body {
     margin: 0;
+    padding: 0;
 }
 
 .navigation a{
@@ -27,11 +28,13 @@
     float: left;
     align-items: center;
     padding: 0px 20px;
+    color: #000000ce;
 }
 
 .content{
     float:left;
     height: 100%;
+    width: 100%;
     position:static;     
     color: #265758;  
 }
@@ -61,4 +64,8 @@
     padding: 0px 100px;
     text-align: justify;
     position: static;
+}
+
+a:hover{
+    color: #ffffff;
 }
